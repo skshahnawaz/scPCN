@@ -5,3 +5,6 @@ Single-cell analysis has become increasingly popular in recent years, as it allo
 ![flowchart (1)-1](https://github.com/skshahnawaz/scpcn/assets/52563824/52dd4a1f-e1d3-49ed-9cfb-cd52bf2ba191)
 
 **Fig:** The schematic diagram of the proposed method
+
+
+Run `python main.py` after installing dependencies via `pip install requirements.txt`
