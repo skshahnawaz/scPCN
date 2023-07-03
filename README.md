@@ -6,5 +6,9 @@ Single-cell analysis has become increasingly popular in recent years, as it allo
 
 **Fig:** The schematic diagram of the proposed method
 
-
+## Steps to run
 Run `python main.py` after installing dependencies via `pip install requirements.txt`
+
+## Clustering Output
+
+![umap_pbmc_3k-1](https://github.com/skshahnawaz/scpcn/assets/52563824/138f36a3-6f21-4e85-b4fc-ff5735ba087b)
