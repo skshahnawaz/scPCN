@@ -11,4 +11,6 @@ Run `python main.py` after installing dependencies via `pip install requirements
 
 ## Clustering Output
 
+`sce.tl.phenograph(self.pathway_activity_matrix2, clustering_algo="louvain", k=30)`
+
 ![umap_pbmc_3k-1](https://github.com/skshahnawaz/scpcn/assets/52563824/4493b1c2-49bb-44a0-8621-2466901dbc04)
