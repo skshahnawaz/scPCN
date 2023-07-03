@@ -11,4 +11,4 @@ Run `python main.py` after installing dependencies via `pip install requirements
 
 ## Clustering Output
 
-![umap_pbmc_3k-1](https://github.com/skshahnawaz/scpcn/assets/52563824/138f36a3-6f21-4e85-b4fc-ff5735ba087b)
+![umap_pbmc_3k-1](https://github.com/skshahnawaz/scpcn/assets/52563824/4493b1c2-49bb-44a0-8621-2466901dbc04)
