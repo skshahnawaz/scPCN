@@ -1,3 +1,10 @@
+figures/
+cache/
+anndata.csv
+gene_correlation_matrix.csv
+pathway_activity_matrix.csv
+pathway_geneset.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

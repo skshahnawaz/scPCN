@@ -36,8 +36,8 @@ class Preprocess:
              jitter=0.4, multi_panel=True, save='.pdf')
 
         # Removing cells that have too many mitochondrial genes expressed or too many total counts
-        # sc.pl.scatter(self.adata, x='total_counts', y='pct_counts_mt')
-        # sc.pl.scatter(self.adata, x='total_counts', y='n_genes_by_counts')
+        sc.pl.scatter(self.adata, x='total_counts', y='pct_counts_mt', save='.pdf')
+        sc.pl.scatter(self.adata, x='total_counts', y='n_genes_by_counts', save='.pdf')
 
         # Actual filtering by slicing the AnnData object
         self.adata = self.adata[self.adata.obs.n_genes_by_counts < 2500, :]
@@ -64,5 +64,3 @@ class Preprocess:
         sc.pp.scale(self.adata, max_value=10)
 
         return self.adata
-
-        # print(self.adata)

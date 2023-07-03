@@ -16,10 +16,7 @@ import time
 class Process:
     
     def __init__(self, cell_gene_expression_data):
-    # def __init__(self):
         self.adata = cell_gene_expression_data
-        print(self.adata)
-        # print()
 
     def convert_to_dataframe(self):
         print("-----Converting to dataframe-----")
@@ -118,8 +115,6 @@ class Process:
             for row in self.cell_gene_df.iterrows():
                 cell_gene_activated = self.cell_gene_df[list(activated_genes)]
 
-            cell_gene_activated.to_csv('./cell_gene_activated.csv')
-
             for row,col in cell_gene_activated.iterrows():
                 exprsum = 0
                 for gene in list(cell_gene_activated.columns):
@@ -127,24 +122,11 @@ class Process:
                 exprsum /= math.sqrt(len(activated_genes))
                 self.pathway_activity_matrix.loc[row,pathway_name] = exprsum
 
-            # self.end = time.time()
-
-        self.pathway_activated_genes.to_csv('./pathway_activated_genes.csv')
-
-        # self.end = time.time()
-        # print(f'Time is : {self.end - self.start}') # remove it
-
-        # print(f'Shape is : {self.pathway_activity_matrix.shape}') #remove it
-
         self.pathway_activity_matrix.to_csv('./pathway_activity_matrix.csv')
 
     def cluster_data(self):
         # implementing the PhenoGraph clustering
-
         self.pathway_activity_matrix2 = pd.read_csv('./pathway_activity_matrix.csv', index_col=0)
 
         print("Clustering...")
         sce.tl.phenograph(self.pathway_activity_matrix2, clustering_algo="louvain", k=30)
-
-        # save the clustering results as csv (with ranking)
-        # end
