@@ -14,3 +14,12 @@ Run `python main.py` after installing dependencies via `pip install requirements
 `sce.tl.phenograph(self.pathway_activity_matrix2, clustering_algo="louvain", k=30)`
 
 ![umap_pbmc_3k-1](https://github.com/skshahnawaz/scpcn/assets/52563824/4493b1c2-49bb-44a0-8621-2466901dbc04)
+
+## Biological Significance
+
+<p float="left" align="middle">
+  <img src="https://github.com/skshahnawaz/scpcn/assets/52563824/72aeb283-c63d-4387-9b8e-10b9566311ab" width="33%" />
+  <img src="https://github.com/skshahnawaz/scpcn/assets/52563824/78636cd3-5e36-4de6-bbaa-5efc63022d46" width="33%" /> 
+  <img src="https://github.com/skshahnawaz/scpcn/assets/52563824/9619bb67-0680-43c6-9ae4-7a0de2eb34ec" width="33%" />
+</p>
+
