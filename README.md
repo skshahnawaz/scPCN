@@ -19,7 +19,7 @@ Run `python main.py` after installing dependencies via `pip install requirements
 
 ### Unveiling Pathway Crosstalk through scPCN
 
-Cervical             |  Endo             |  Ovary
+Cervical Caner             |  Endometrial Cancer             |  Ovarian Cancer
 :-------------------------:|:-------------------------:|:-------------------------:
 ![cerivical-1](https://github.com/skshahnawaz/scpcn/assets/52563824/2c390653-b542-41b2-b3d3-0a42c47f3503)  |  ![endo-1](https://github.com/skshahnawaz/scpcn/assets/52563824/16ddf310-2e18-4bd3-853f-c901e7ecb8dc)  |  ![ovary-1](https://github.com/skshahnawaz/scpcn/assets/52563824/cf20aea3-f075-4bec-ad62-d3faab09ee22)
 
