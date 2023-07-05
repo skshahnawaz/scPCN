@@ -17,9 +17,11 @@ Run `python main.py` after installing dependencies via `pip install requirements
 
 ## Biological Significance
 
-<p float="left" align="middle">
-  <img src="https://github.com/skshahnawaz/scpcn/assets/52563824/72aeb283-c63d-4387-9b8e-10b9566311ab" width="33%" />
-  <img src="https://github.com/skshahnawaz/scpcn/assets/52563824/78636cd3-5e36-4de6-bbaa-5efc63022d46" width="33%" /> 
-  <img src="https://github.com/skshahnawaz/scpcn/assets/52563824/9619bb67-0680-43c6-9ae4-7a0de2eb34ec" width="33%" />
-</p>
+### Unveiling Pathway Crosstalk through scPCN
+
+Cervical             |  Endo             |  Ovary
+:-------------------------:|:-------------------------:|:-------------------------:
+![cerivical-1](https://github.com/skshahnawaz/scpcn/assets/52563824/2c390653-b542-41b2-b3d3-0a42c47f3503)  |  ![endo-1](https://github.com/skshahnawaz/scpcn/assets/52563824/16ddf310-2e18-4bd3-853f-c901e7ecb8dc)  |  ![ovary-1](https://github.com/skshahnawaz/scpcn/assets/52563824/cf20aea3-f075-4bec-ad62-d3faab09ee22)
+
+
 
